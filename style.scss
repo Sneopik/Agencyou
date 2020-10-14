@@ -295,6 +295,21 @@
                 }
             }
         }
+
+        .skills-progress {
+            background-color: #fff;
+            padding: 30px;
+
+            .skills-item {
+                margin-bottom: 30px;
+                overflow: hidden;
+
+                .skills-name {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
     }
 
 }

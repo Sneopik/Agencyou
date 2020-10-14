@@ -201,6 +201,15 @@
           font-size: 1.2em; }
         .skills-section .skills-list li p {
           opacity: 0.75;
-          line-height: 30px; } }
+          line-height: 30px; }
+    .skills-section .skills-progress {
+      background-color: #fff;
+      padding: 30px; }
+      .skills-section .skills-progress .skills-item {
+        margin-bottom: 30px;
+        overflow: hidden; }
+        .skills-section .skills-progress .skills-item .skills-name {
+          display: flex;
+          justify-content: space-between; } }
 
 /*# sourceMappingURL=style.css.map */
