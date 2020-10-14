@@ -185,7 +185,10 @@
       padding: 0;
       margin: 0; }
       .skills-section .skills-list .skills-list--icon {
-        margin-right: 15px; }
+        margin-right: 15px;
+        background-color: #f80e0e;
+        border: 15px solid #f80e0e;
+        border-radius: 50%; }
       .skills-section .skills-list li {
         display: flex;
         align-items: flex-start;
