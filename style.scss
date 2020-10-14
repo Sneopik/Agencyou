@@ -159,7 +159,7 @@
     }
 
     .about-section {
-        padding-top: 100px;
+        padding: 100px 0;
         overflow: hidden;
 
         .about-img {
@@ -194,6 +194,13 @@
                     border-radius: 50%;
                 }
 
+                
+                li {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: 30px;
+                }
+
                 h6 {
                     font-weight: 700;
                     color: #0f0b36;
@@ -204,12 +211,6 @@
                 p {
                     opacity: 0.75;
                     line-height: 30px;
-                }
-                
-                li {
-                    display: flex;
-                    align-items: flex-start;
-                    margin-bottom: 30px;
                 }
             }
 
@@ -234,6 +235,60 @@
                     text-align: center;
                     width: 64px;
                     height: 64px;
+                }
+            }
+        }
+    }
+
+    .skills-section {
+        background-color: #140d52;
+        padding: 100px 0;
+        overflow: hidden;
+
+        .skills-title {
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.4;
+
+            span {
+                color: #f80e0e;
+                font-weight: 800;
+                font-style: italic;
+            }
+        }
+
+        .skills-text {
+            margin-bottom: 30px;
+            color: #fff;
+            opacity: 0.75;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            .skills-list--icon {
+                margin-right: 15px;
+            }
+            
+            li {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                color: #fff;
+
+                h6 {
+                    margin-bottom: 10px;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 1.2em;
+                }
+
+                p {
+                    opacity: 0.75;
+                    line-height: 30px;
                 }
             }
         }
