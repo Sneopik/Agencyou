@@ -2,12 +2,6 @@
   body {
     font-size: 16px; }
 
-  .header-shrink {
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    padding: 0; }
-
   .header {
     padding: 10px 0; }
     .header .navbar {
@@ -208,8 +202,17 @@
       .skills-section .skills-progress .skills-item {
         margin-bottom: 30px;
         overflow: hidden; }
+        .skills-section .skills-progress .skills-item .progress {
+          border-radius: 0;
+          height: 0.3rem; }
         .skills-section .skills-progress .skills-item .skills-name {
           display: flex;
-          justify-content: space-between; } }
+          justify-content: space-between;
+          font-weight: 700; } }
+.header-shrink {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

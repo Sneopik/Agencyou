@@ -3,15 +3,6 @@
         font-size: 16px;
     }
 
-    
-
-    .header-shrink {
-        position: fixed;
-        background-color: #fff;
-        width: 100%;
-        padding: 0;
-    }
-
     .header {
         padding: 10px 0;
 
@@ -304,12 +295,25 @@
                 margin-bottom: 30px;
                 overflow: hidden;
 
+                .progress {
+                    border-radius: 0;
+                    height: 0.3rem;
+                }
+
                 .skills-name {
                     display: flex;
                     justify-content: space-between;
+                    font-weight: 700;
                 }
             }
         }
     }
 
+}
+
+.header-shrink {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
 }
