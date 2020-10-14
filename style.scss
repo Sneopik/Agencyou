@@ -1,6 +1,13 @@
-@media screen and (max-width: 765px) {
+@media only screen and (max-width: 765px) {
     body {
         font-size: 16px;
+    }
+
+    .header-shrink {
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        padding: 0;
     }
 
     .header {
@@ -26,18 +33,53 @@
                     height: 3px;
                     width: 30px;
                     display: block;
-                    background: #fff;
+                    background-color: #fff;
                 }
 
                 span:nth-child(2) {
                     width: 20px !important;
                     margin-left: auto;
                 }
+
+            }
+
+            .toggler-icon-inner--black {
+                span {
+                    background-color: black;
+                }
+            }
+
+            .navbar-nav {
+                max-height: 300px;
+                overflow: hidden;
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .nav-item {
+                height: 45px;
+                background: #fff;
+                color: #000000;
+
+                .nav-link {
+                    padding: 10px 15px 10px 15px;
+                    color:#000000;
+                    text-transform: uppercase;
+                    opacity: 1;
+                    border: 1px solid #000000;
+                }
+
+                .active {
+                    background-color: #f80e0e;
+                    color: #fff;
+                    border-color: #f80e0e;
+                }
+
             }
         }
 
         .navbar-brand {
-            padding: 0;
+            padding:0 0 0 15px;
             margin-right: 0;
             text-transform: capitalize;
         }
