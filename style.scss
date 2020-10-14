@@ -3,6 +3,8 @@
         font-size: 16px;
     }
 
+    
+
     .header-shrink {
         position: fixed;
         background-color: #fff;
@@ -153,6 +155,87 @@
             width: 100%;
             height: auto;
             pointer-events: none;
+        }
+    }
+
+    .about-section {
+        padding-top: 100px;
+        overflow: hidden;
+
+        .about-img {
+            margin-bottom: 20px;
+        }
+
+        .about-inner {
+            .about-title {
+                margin-bottom: 20px;
+                font-weight: 700;
+                color: #0f0b36;
+
+                span {
+                    font-weight: 800;
+                    color: #f80e0e;
+                    font-style: italic;
+                }
+            }
+
+            .about-text {
+                margin-bottom: 30px;
+                opacity: 0.75;
+            }
+
+            .about-list {
+                margin-bottom: 30px;
+                padding-inline-start: 0;
+
+                .about-list--icon {
+                    margin-right: 15px;
+                    border: 16px solid;
+                    border-radius: 50%;
+                }
+
+                h6 {
+                    font-weight: 700;
+                    color: #0f0b36;
+                    line-height: 1.4;
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    opacity: 0.75;
+                    line-height: 30px;
+                }
+                
+                li {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .about-btn {
+                display: flex;
+                flex-wrap: wrap;
+
+                .primary-btn {
+                    padding: 20px 28px;
+                    background-color: #f80e0e;
+                    width: 171.5px;
+                    height: 64px;
+                    text-align: center;
+                    color: #fff !important;
+                    overflow: hidden;
+                }
+
+                .video-btn {
+                    background-color: #140d52;
+                    padding: 20px 20px;
+                    margin-left: 15px;
+                    text-align: center;
+                    width: 64px;
+                    height: 64px;
+                }
+            }
         }
     }
 
