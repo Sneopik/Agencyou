@@ -8,8 +8,6 @@ const handleScroll = () => {
   const rectTitle = upperTitle[0].getBoundingClientRect();
   const rectHeader = header.getBoundingClientRect();
 
-  console.log("scrolling");
-
   if (rectTitle.top < rectHeader.height) {
     header.classList.add("header-shrink");
     logoWhite.style.display = "none";
