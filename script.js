@@ -3,6 +3,8 @@ const logoWhite = document.getElementById("Logo-White");
 const logoBlack = document.getElementById("Logo-Black");
 const upperTitle = document.getElementsByClassName("upper-title");
 const navBtn = document.querySelector('.toggler-icon-inner');
+const worksBtn = document.getElementsByClassName('works-btn');
+const worksItems = document.getElementsByClassName('works-item');
 
 const handleScroll = () => {
   const rectTitle = upperTitle[0].getBoundingClientRect();
@@ -22,3 +24,19 @@ const handleScroll = () => {
 };
 
 window.addEventListener("scroll", () => handleScroll());
+
+const sortWorks = (elem) => {
+  for (let i = 0; i < worksItems.length; i++) {
+    console.log('working')
+    if (worksItems[i].classList.contains(elem)) {
+      worksItems[i].style.display = "block";
+    } else {
+      worksItems[i].style.display = "none";
+    };
+  };
+}
+
+worksBtn[0].addEventListener('click', () => sortWorks('works-item'));
+worksBtn[1].addEventListener('click', () => sortWorks('web'));
+worksBtn[2].addEventListener('click', () => sortWorks('brand'));
+worksBtn[3].addEventListener('click', () => sortWorks('ui'));
