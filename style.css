@@ -1,214 +1,214 @@
-@media only screen and (max-width: 765px) {
-  body {
-    font-size: 16px; }
+body {
+  font-size: 16px; }
 
-  .header {
-    padding: 10px 0; }
-    .header .navbar {
-      position: relative;
+.header {
+  padding: 10px 0; }
+  .header .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+    .header .navbar .navbar-toggler {
+      outline: none;
+      border: none;
+      border-radius: 0;
+      padding: 0 10px 0 0; }
+    .header .navbar .toggler-icon-inner span {
+      margin: 5px;
+      height: 3px;
+      width: 30px;
+      display: block;
+      background-color: #fff; }
+    .header .navbar .toggler-icon-inner span:nth-child(2) {
+      width: 20px !important;
+      margin-left: auto; }
+    .header .navbar .toggler-icon-inner--black span {
+      background-color: black; }
+    .header .navbar .navbar-nav {
+      max-height: 300px;
+      overflow: hidden;
+      width: 100%;
+      margin-left: 0; }
+    .header .navbar .nav-item {
+      height: 45px;
+      background: #fff;
+      color: #000000; }
+      .header .navbar .nav-item .nav-link {
+        padding: 10px 15px 10px 15px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        border: 1px solid #000000; }
+      .header .navbar .nav-item .active {
+        background-color: #f80e0e;
+        color: #fff;
+        border-color: #f80e0e; }
+  .header .navbar-brand {
+    padding: 0 0 0 15px;
+    margin-right: 0;
+    text-transform: capitalize; }
+
+.parallax {
+  background-blend-mode: multiply;
+  background-image: url(./img/Upper-section/bg-hero.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.upper-section {
+  z-index: 1;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background-color: #6f42c1;
+  min-height: 100vh; }
+  .upper-section .upper-inner {
+    position: relative;
+    z-index: 15;
+    margin-top: 200px; }
+    .upper-section .upper-inner .upper-title {
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 30px; }
+    .upper-section .upper-inner .upper-subtitle {
+      font-size: 0.8rem;
+      color: #fff;
+      opacity: 0.75;
+      margin: 0; }
+    .upper-section .upper-inner .upper-btn {
+      margin-top: 30px;
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between; }
-      .header .navbar .navbar-toggler {
-        outline: none;
-        border: none;
-        border-radius: 0;
-        padding: 0 10px 0 0; }
-      .header .navbar .toggler-icon-inner span {
-        margin: 5px;
-        height: 3px;
-        width: 30px;
-        display: block;
-        background-color: #fff; }
-      .header .navbar .toggler-icon-inner span:nth-child(2) {
-        width: 20px !important;
-        margin-left: auto; }
-      .header .navbar .toggler-icon-inner--black span {
-        background-color: black; }
-      .header .navbar .navbar-nav {
-        max-height: 300px;
-        overflow: hidden;
-        width: 100%;
-        margin-left: 0; }
-      .header .navbar .nav-item {
-        height: 45px;
-        background: #fff;
-        color: #000000; }
-        .header .navbar .nav-item .nav-link {
-          padding: 10px 15px 10px 15px;
-          color: #000000;
-          text-transform: uppercase;
-          opacity: 1;
-          border: 1px solid #000000; }
-        .header .navbar .nav-item .active {
-          background-color: #f80e0e;
-          color: #fff;
-          border-color: #f80e0e; }
-    .header .navbar-brand {
-      padding: 0 0 0 15px;
-      margin-right: 0;
-      text-transform: capitalize; }
-
-  .parallax {
-    background-blend-mode: multiply;
-    background-image: url(./img/Upper-section/bg-hero.jpg);
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-
-  .upper-section {
-    z-index: 1;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    background-color: #6f42c1;
-    min-height: 100vh; }
-    .upper-section .upper-inner {
-      position: relative;
-      z-index: 15;
-      margin-top: 200px; }
-      .upper-section .upper-inner .upper-title {
-        font-size: 1.8rem;
-        color: #fff;
-        margin-bottom: 30px; }
-      .upper-section .upper-inner .upper-subtitle {
-        font-size: 0.8rem;
-        color: #fff;
-        opacity: 0.75;
-        margin: 0; }
-      .upper-section .upper-inner .upper-btn {
-        margin-top: 30px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start; }
-        .upper-section .upper-inner .upper-btn .primary-btn {
-          padding: 20px 28px;
-          margin-right: 15px;
-          background-color: #f80e0e;
-          text-align: center;
-          color: #fff !important; }
-        .upper-section .upper-inner .upper-btn .default-btn {
-          padding: 20px 28px;
-          background-color: #fff;
-          color: #f80e0e;
-          text-align: center; }
-    .upper-section #svg-pattern-2 {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: auto;
-      pointer-events: none; }
-
-  .about-section {
-    padding: 100px 0;
-    overflow: hidden; }
-    .about-section .about-img {
-      margin-bottom: 20px; }
-    .about-section .about-inner .about-title {
-      margin-bottom: 20px;
-      font-weight: 700;
-      color: #0f0b36; }
-      .about-section .about-inner .about-title span {
-        font-weight: 800;
-        color: #f80e0e;
-        font-style: italic; }
-    .about-section .about-inner .about-text {
-      margin-bottom: 30px;
-      opacity: 0.75; }
-    .about-section .about-inner .about-list {
-      margin-bottom: 30px;
-      padding-inline-start: 0; }
-      .about-section .about-inner .about-list .about-list--icon {
+      justify-content: flex-start; }
+      .upper-section .upper-inner .upper-btn .primary-btn {
+        padding: 20px 28px;
         margin-right: 15px;
-        border: 16px solid;
-        border-radius: 50%; }
-      .about-section .about-inner .about-list li {
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: 30px; }
-      .about-section .about-inner .about-list h6 {
+        background-color: #f80e0e;
+        text-align: center;
+        color: #fff !important; }
+      .upper-section .upper-inner .upper-btn .default-btn {
+        padding: 20px 28px;
+        background-color: #fff;
+        color: #f80e0e;
+        text-align: center; }
+  .upper-section #svg-pattern-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    pointer-events: none; }
+
+.about-section {
+  padding: 100px 0;
+  overflow: hidden; }
+  .about-section .about-img {
+    margin-bottom: 20px; }
+  .about-section .about-inner .about-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #0f0b36; }
+    .about-section .about-inner .about-title span {
+      font-weight: 800;
+      color: #f80e0e;
+      font-style: italic; }
+  .about-section .about-inner .about-text {
+    margin-bottom: 30px;
+    opacity: 0.75; }
+  .about-section .about-inner .about-list {
+    margin-bottom: 30px;
+    padding-inline-start: 0; }
+    .about-section .about-inner .about-list .about-list--icon {
+      margin-right: 15px;
+      border: 16px solid;
+      border-radius: 50%; }
+    .about-section .about-inner .about-list li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 30px; }
+    .about-section .about-inner .about-list h6 {
+      font-weight: 700;
+      color: #0f0b36;
+      line-height: 1.4;
+      font-size: 1.2rem; }
+    .about-section .about-inner .about-list p {
+      opacity: 0.75;
+      line-height: 30px; }
+  .about-section .about-inner .about-btn {
+    display: flex;
+    flex-wrap: wrap; }
+    .about-section .about-inner .about-btn .primary-btn {
+      padding: 20px 28px;
+      background-color: #f80e0e;
+      width: 171.5px;
+      height: 64px;
+      text-align: center;
+      color: #fff !important;
+      overflow: hidden; }
+    .about-section .about-inner .about-btn .video-btn {
+      background-color: #140d52;
+      padding: 20px 20px;
+      margin-left: 15px;
+      text-align: center;
+      width: 64px;
+      height: 64px; }
+
+.skills-section {
+  background-color: #140d52;
+  padding: 100px 0;
+  overflow: hidden; }
+  .skills-section .skills-title {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.4; }
+    .skills-section .skills-title span {
+      color: #f80e0e;
+      font-weight: 800;
+      font-style: italic; }
+  .skills-section .skills-text {
+    margin-bottom: 30px;
+    color: #fff;
+    opacity: 0.75; }
+  .skills-section .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .skills-section .skills-list .skills-list--icon {
+      margin-right: 15px;
+      background-color: #f80e0e;
+      border: 15px solid #f80e0e;
+      border-radius: 50%; }
+    .skills-section .skills-list li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 30px;
+      color: #fff; }
+      .skills-section .skills-list li h6 {
+        margin-bottom: 10px;
+        color: #fff;
         font-weight: 700;
-        color: #0f0b36;
-        line-height: 1.4;
-        font-size: 1.2rem; }
-      .about-section .about-inner .about-list p {
+        font-size: 1.2em; }
+      .skills-section .skills-list li p {
         opacity: 0.75;
         line-height: 30px; }
-    .about-section .about-inner .about-btn {
-      display: flex;
-      flex-wrap: wrap; }
-      .about-section .about-inner .about-btn .primary-btn {
-        padding: 20px 28px;
-        background-color: #f80e0e;
-        width: 171.5px;
-        height: 64px;
-        text-align: center;
-        color: #fff !important;
-        overflow: hidden; }
-      .about-section .about-inner .about-btn .video-btn {
-        background-color: #140d52;
-        padding: 20px 20px;
-        margin-left: 15px;
-        text-align: center;
-        width: 64px;
-        height: 64px; }
-
-  .skills-section {
-    background-color: #140d52;
-    padding: 100px 0;
-    overflow: hidden; }
-    .skills-section .skills-title {
-      color: #fff;
-      margin-bottom: 20px;
-      font-weight: 700;
-      line-height: 1.4; }
-      .skills-section .skills-title span {
-        color: #f80e0e;
-        font-weight: 800;
-        font-style: italic; }
-    .skills-section .skills-text {
+  .skills-section .skills-progress {
+    background-color: #fff;
+    padding: 30px; }
+    .skills-section .skills-progress .skills-item {
       margin-bottom: 30px;
-      color: #fff;
-      opacity: 0.75; }
-    .skills-section .skills-list {
-      list-style-type: none;
-      padding: 0;
-      margin: 0; }
-      .skills-section .skills-list .skills-list--icon {
-        margin-right: 15px;
-        background-color: #f80e0e;
-        border: 15px solid #f80e0e;
-        border-radius: 50%; }
-      .skills-section .skills-list li {
+      overflow: hidden; }
+      .skills-section .skills-progress .skills-item .progress {
+        border-radius: 0;
+        height: 0.3rem; }
+      .skills-section .skills-progress .skills-item .skills-name {
         display: flex;
-        align-items: flex-start;
-        margin-bottom: 30px;
-        color: #fff; }
-        .skills-section .skills-list li h6 {
-          margin-bottom: 10px;
-          color: #fff;
-          font-weight: 700;
-          font-size: 1.2em; }
-        .skills-section .skills-list li p {
-          opacity: 0.75;
-          line-height: 30px; }
-    .skills-section .skills-progress {
-      background-color: #fff;
-      padding: 30px; }
-      .skills-section .skills-progress .skills-item {
-        margin-bottom: 30px;
-        overflow: hidden; }
-        .skills-section .skills-progress .skills-item .progress {
-          border-radius: 0;
-          height: 0.3rem; }
-        .skills-section .skills-progress .skills-item .skills-name {
-          display: flex;
-          justify-content: space-between;
-          font-weight: 700; } }
+        justify-content: space-between;
+        font-weight: 700; }
+
 .header-shrink {
   position: fixed;
   background-color: #fff;
