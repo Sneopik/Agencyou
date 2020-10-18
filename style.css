@@ -2,12 +2,6 @@
   body {
     font-size: 16px; }
 
-  .header-shrink {
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    padding: 0; }
-
   .header {
     padding: 10px 0; }
     .header .navbar {
@@ -107,6 +101,118 @@
       left: 0;
       width: 100%;
       height: auto;
-      pointer-events: none; } }
+      pointer-events: none; }
+
+  .about-section {
+    padding: 100px 0;
+    overflow: hidden; }
+    .about-section .about-img {
+      margin-bottom: 20px; }
+    .about-section .about-inner .about-title {
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #0f0b36; }
+      .about-section .about-inner .about-title span {
+        font-weight: 800;
+        color: #f80e0e;
+        font-style: italic; }
+    .about-section .about-inner .about-text {
+      margin-bottom: 30px;
+      opacity: 0.75; }
+    .about-section .about-inner .about-list {
+      margin-bottom: 30px;
+      padding-inline-start: 0; }
+      .about-section .about-inner .about-list .about-list--icon {
+        margin-right: 15px;
+        border: 16px solid;
+        border-radius: 50%; }
+      .about-section .about-inner .about-list li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px; }
+      .about-section .about-inner .about-list h6 {
+        font-weight: 700;
+        color: #0f0b36;
+        line-height: 1.4;
+        font-size: 1.2rem; }
+      .about-section .about-inner .about-list p {
+        opacity: 0.75;
+        line-height: 30px; }
+    .about-section .about-inner .about-btn {
+      display: flex;
+      flex-wrap: wrap; }
+      .about-section .about-inner .about-btn .primary-btn {
+        padding: 20px 28px;
+        background-color: #f80e0e;
+        width: 171.5px;
+        height: 64px;
+        text-align: center;
+        color: #fff !important;
+        overflow: hidden; }
+      .about-section .about-inner .about-btn .video-btn {
+        background-color: #140d52;
+        padding: 20px 20px;
+        margin-left: 15px;
+        text-align: center;
+        width: 64px;
+        height: 64px; }
+
+  .skills-section {
+    background-color: #140d52;
+    padding: 100px 0;
+    overflow: hidden; }
+    .skills-section .skills-title {
+      color: #fff;
+      margin-bottom: 20px;
+      font-weight: 700;
+      line-height: 1.4; }
+      .skills-section .skills-title span {
+        color: #f80e0e;
+        font-weight: 800;
+        font-style: italic; }
+    .skills-section .skills-text {
+      margin-bottom: 30px;
+      color: #fff;
+      opacity: 0.75; }
+    .skills-section .skills-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      .skills-section .skills-list .skills-list--icon {
+        margin-right: 15px;
+        background-color: #f80e0e;
+        border: 15px solid #f80e0e;
+        border-radius: 50%; }
+      .skills-section .skills-list li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        color: #fff; }
+        .skills-section .skills-list li h6 {
+          margin-bottom: 10px;
+          color: #fff;
+          font-weight: 700;
+          font-size: 1.2em; }
+        .skills-section .skills-list li p {
+          opacity: 0.75;
+          line-height: 30px; }
+    .skills-section .skills-progress {
+      background-color: #fff;
+      padding: 30px; }
+      .skills-section .skills-progress .skills-item {
+        margin-bottom: 30px;
+        overflow: hidden; }
+        .skills-section .skills-progress .skills-item .progress {
+          border-radius: 0;
+          height: 0.3rem; }
+        .skills-section .skills-progress .skills-item .skills-name {
+          display: flex;
+          justify-content: space-between;
+          font-weight: 700; } }
+.header-shrink {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
