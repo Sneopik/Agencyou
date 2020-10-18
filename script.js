@@ -27,7 +27,6 @@ window.addEventListener("scroll", () => handleScroll());
 
 const sortWorks = (elem) => {
   for (let i = 0; i < worksItems.length; i++) {
-    console.log('working')
     if (worksItems[i].classList.contains(elem)) {
       worksItems[i].style.display = "block";
     } else {

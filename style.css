@@ -363,4 +363,23 @@ a:link {
     position: relative;
     display: block; }
 
+.counter-section {
+  padding: 100px 0;
+  overflow: hidden; }
+
+.counter-item {
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center; }
+
+.counter-inner span {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5px; }
+.counter-inner h5 {
+  opacity: 0.75;
+  font-weight: 300;
+  font-size: 1.15rem; }
+
 /*# sourceMappingURL=style.css.map */
