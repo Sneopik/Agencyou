@@ -4,8 +4,7 @@ const logoBlack = document.getElementById("Logo-Black");
 const upperTitle = document.getElementsByClassName("upper-title");
 const navBtn = document.querySelector(".toggler-icon-inner");
 const navLinks = document.querySelectorAll(".nav-link");
-const worksBtn = document.querySelector(".works-filter");
-const worksItems = document.querySelectorAll(".works-item");
+const scrollTopBtn = document.getElementById("scroll-top-btn");
 
 const handleScroll = () => {
   const rectTitle = upperTitle[0].getBoundingClientRect();
@@ -19,6 +18,7 @@ const handleScroll = () => {
     navLinks.forEach((el) => {
       el.classList.add("nav-link--black");
     });
+    scrollTopBtn.style = "visibility: visible; opacity: 1; bottom: 10px;";
   } else {
     header.classList.remove("header-shrink");
     logoWhite.style.display = "inline";
@@ -27,20 +27,9 @@ const handleScroll = () => {
     navLinks.forEach((el) => {
       el.classList.remove("nav-link--black");
     });
+    scrollTopBtn.style = "visibility: hidden; opacity: 0; bottom: 0px;";
   }
 };
 
 window.addEventListener("scroll", () => handleScroll());
-
-const sortWorks = (select) => {
-  worksItems.forEach((el) => {
-    el.classList.contains(select)
-      ? (el.style.display = "block")
-      : (el.style.display = "none");
-  });
-};
-
-worksBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  sortWorks(e.target.dataset.sorting);
-});
+scrollTopBtn.addEventListener("click", () => window.scrollTo(0, 0));
